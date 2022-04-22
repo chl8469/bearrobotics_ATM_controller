@@ -33,13 +33,13 @@ class ATM:
             print(idx+1, ":", acnt)
         
         while True:
-            selected = input("please select your account:")
+            selected = input("please select your account: ")
             try:
                 selected = int(selected)
                 if selected in ac_rng:
                     break
             except ValueError:
-                print(f"please select one of {ac_rng_str}")
+                pass
             print(f"please select one of {ac_rng_str}")
                 
         self.account = accounts[selected - 1]

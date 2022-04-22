@@ -1,5 +1,5 @@
 from typing import List, Union
-from testdata import test_users, test_accounts
+from testcase import test_users, test_accounts
 
 
 class BankApi:
