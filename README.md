@@ -30,3 +30,4 @@ $ cd bearrobotics_ATM_controller
 $ pytest -s -vv # -vv argument is optional
 ```
 
+or you can find test result [here](https://github.com/chl8469/bearrobotics_ATM_controller/runs/6124423224?check_suite_focus=true#step:5:1)
